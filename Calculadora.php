@@ -20,7 +20,7 @@
     <option value="MXN">Pesos Mexicanos (MXN)</option>
     <option value="COP">Pesos Colombianos (COP)</option>
     <option value="CAD">Dólares Canadienses (CAD)</option>
-            <!-- Agrega más opciones según sea necesario -->
+            
         </select>
         <br>
         <label>Seleccione la moneda de destino:</label>
@@ -34,7 +34,7 @@
     <option value="MXN">Pesos Mexicanos (MXN)</option>
     <option value="COP">Pesos Colombianos (COP)</option>
     <option value="CAD">Dólares Canadienses (CAD)</option>
-            <!-- Agrega más opciones según sea necesario -->
+           
         </select>
         <br>
         <button type="submit" name="tipo_conversion" value="Moneda">Convertir</button>
@@ -56,7 +56,7 @@
                 'MXN' => ['factor' => 0.0025, 'nombre' => 'pesos mexicanos'],
                 'COP' => ['factor' => 0.000015, 'nombre' => 'pesos colombianos'],
                 'CAD' => ['factor' => 0.06, 'nombre' => 'dólares canadienses'],
-                // Agregar más monedas aquí según sea necesario
+                
             ];
         }
 
